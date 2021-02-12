@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+   
+  }
+  
+  /* ********************Menu*************************** */
+  #navbar{
+    display: flex;
+    width: 99%;
+    justify-content: space-between;
+    border: 2px solid red;
+    align-items: center;
+  
+  }
+  #logo{
+    border: 1px solid black;
+    width: 30em;
+  }
+  #logo h1{
+    border: 1px solid grey;
+  }
+  #menu{
+    display:flex;
+    justify-content: space-between;
+    width: 30rem;
+    margin-right: 1em;
+  }
+  /* ********************FIN-Menu*************************** */
+  /* ********************MiniMenu*************************** */
+  .miniMenuCard{
+    display: flex;
+    flex-direction: column;
+    width:100% ;
+    height: 30rem;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 5%;
+    background-color:#FFFFAA;
+  }
+  .miniMenu{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+  
+  }
+  .imageMiniMenu{
+    margin: 1.5rem;
+    width: 90%;
+    height:60%;
+    border-radius: 3%;
+   }
+
+   .content{
+       margin-left: 3%;
+   }
+
+   .modalMiniMenu{
+       width: 100%;
+       height: 30rem;
+       display: none;
+       position: fixed;
+       z-index: 1;
+       background-color: red;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+
+  
+   
+   
+  /* ********************Fin-MiniMenu*************************** */
+/* **********************Modal miniMenu fermé******************* */
+
+
+.closeModalMiniMenu{
+    display: none;
+}
+/* **********************Modal miniMenu fermé fin******************* */
+
+  .carousel{
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    overflow: inherit;
+  }
