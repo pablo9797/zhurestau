@@ -4,7 +4,7 @@ import menu from'./Menu.json';
 import MiniMenu from './MiniMenu';
 import '../App.css';
 
-class Slider extends Component {
+class SliderItems extends Component {
   constructor(props){
     super(props);
     this.state = {
@@ -64,4 +64,4 @@ class Slider extends Component {
   }
 }
 
-export default Slider;
+export default SliderItems;

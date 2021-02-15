@@ -12,10 +12,10 @@ function MiniMenu(props){
                 <h2>{props.item.titre}</h2>
                 <div class='miniDescription'>{props.item.description}</div>                
             </div> 
-            {props.item.key} 
+            
                         
             <button onClick={() => { props.isModalOpen(); props.recordKey(props.item);}}  >
-                Cliquez ici
+                Plus d'infos
             </button>
             
               
